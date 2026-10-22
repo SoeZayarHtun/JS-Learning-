@@ -68,3 +68,6 @@ num20 %= 2; // 0
 let num21 = 10;
 let num22 = "10";
 console.log(num21 == num22); // true
+console.log(num21 === num22); // false
+
+
