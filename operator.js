@@ -71,3 +71,29 @@ console.log(num21 == num22); // true
 console.log(num21 === num22); // false
 
 
+//Not equal to
+console.log(num21 != num22); // false
+console.log(num21 !== num22); // true
+
+let num23 = 5;
+//Greater than
+console.log(num21 > num23); //true   
+console.log(num21 >= num23); // false
+
+//Less than
+console.log(num21 < num23); // false
+console.log(num21 <= num23); // false
+
+//Logical operators//
+// && (and), ||(or), !(not)
+
+//&& (and)
+let num24 = 10;
+let num25 = 5;
+console.log(num24 > 0 && num25 > 0); // true
+
+// || (or)
+console.log(num24 > 0 || num25 < 0); // true
+
+// ! (not)
+console.log(!(num24 < 0)); // true
