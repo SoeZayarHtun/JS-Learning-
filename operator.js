@@ -97,3 +97,4 @@ console.log(num24 > 0 || num25 < 0); // true
 
 // ! (not)
 console.log(!(num24 < 0)); // true
+
