@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Popup Example</title>
+</head>
+<body>
+
+    <h1>JavaScript Popup Demo</h1>
+
+    <button onclick="showAlert()">Alert</button>
+    <button onclick="showConfirm()">Confirm</button>
+    <button onclick="showPrompt()">Prompt</button>
+
+    <script>
+        // Alert Popup
+        function showAlert() {
+            alert("Welcome to JavaScript!");
+        }
+
+        // Confirm Popup
+        function showConfirm() {
+            let result = confirm("Do you like JavaScript?");
+
+            if (result) {
+                alert("Great! Keep learning JavaScript.");
+            } else {
+                alert("No problem! Keep practicing.");
+            }
+        }
+
+        // Prompt Popup
+        function showPrompt() {
+            let name = prompt("What is your name?");
+
+            if (name) {
+                alert("Hello, " + name + "! Welcome!");
+            } else {
+                alert("You didn't enter your name.");
+            }
+        }
+    </script>
+
+</body>
+</html>
